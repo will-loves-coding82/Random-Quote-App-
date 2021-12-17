@@ -13,7 +13,7 @@ function Text(props) {
         <div>
            
             <div id='text'><p>{props.data.quote}</p></div>
-            <div id='author'><p>-{props.data.author}</p></div>
+            <div id='author'><p>{props.data.author}</p></div>
         </div>
     )
 };
