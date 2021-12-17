@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand");
+  
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #E6B3B3;
+  transition: background-color 2s;
+  height: 100vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding: 20px 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#quote-box {
+  display: visible;
+  width: 600px;
+  height: 250px;
+  color:#E6B3B3;
+  transition: color 2s;
+  background-color: white;
+  text-align: center;
+  padding: 0px 0px 50px 0px;
+  border-radius: 5px;
+}
+
+#text {
+  background-color: white;
+  font-family: 'Amatic';
+  font-size: 1.6em;
+  margin: 30px 20px;
+  padding-top:20px;
+}
+
+#author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: white;
+  padding-right: 40px;
+  font-family: 'Amatic';
+  font-size:15px;
+}
+
+#tweet-btn{
+  position: relative;
+  margin-right: 60%;
+}
+
+#creator {
+  display: flex;
+  justify-content:center;
+  font-family: 'Quicksand';
+  color: white;
+}
+
+button {
+  background-color: #E6B3B3;
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 50px;
+  font-size: 10px;
+  padding: 5px 5px;
+  margin-right: 10px;
+  color: white;
+  
+  opacity: 1;
+  transform: translate(0px, 3px);
+  transition: background-color 2s, transform 0.5s ease-in;
+}
+
+button:hover{
+  opacity: .8;
+  transform: translate(0px, -3px);
+  transition: background-color 2s,transform .5s ease-out;
+}
+
+
+@media screen and (width: 790px) {
+  button{
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+  
