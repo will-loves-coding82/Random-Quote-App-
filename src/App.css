@@ -90,18 +90,16 @@ button:hover{
 
 
 @media only screen and (max-width: 600px) {
-  button{
-    font-size: 20px;
+  #quote-box {
+    transform: scale(0.75);
   }
-  #quote-box{
-  width: 500px;
-  height: 200px;
-  }
-  #text {
-  font-size: 1.1em;
-}
 }
 
+@media only screen and (max-width: 475px) {
+  #quote-box {
+    transform: scale(0.50);
+  }
+}
 
 
 
